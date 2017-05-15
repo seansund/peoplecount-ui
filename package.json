@@ -1,13 +1,12 @@
 {
   "name": "peoplecount-ui",
   "version": "1.0.0",
-  "description": "peoplecount-ui, based on react-slingshot starter kit (https://github.com/coryhouse/react-slingshot)",
+  "description": "",
   "engines": {
     "npm": ">=3"
   },
   "scripts": {
     "preinstall": "node tools/nodeVersionCheck.js",
-    "setup": "node tools/setup/setupMessage.js && npm install && node tools/setup/setup.js",
     "remove-demo": "babel-node tools/removeDemo.js",
     "start-message": "babel-node tools/startMessage.js",
     "prestart": "npm-run-all --parallel start-message",
@@ -91,24 +90,10 @@
     "webpack-hot-middleware": "2.17.1",
     "webpack-md5-hash": "0.0.5"
   },
-  "keywords": [
-    "react",
-    "reactjs",
-    "react-router",
-    "hot",
-    "reload",
-    "hmr",
-    "live",
-    "edit",
-    "webpack",
-    "redux",
-    "flux",
-    "boilerplate",
-    "starter"
-  ],
+  "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/seansund/peoplecount-ui"
+    "url": ""
   },
   "jest": {
     "moduleNameMapper": {
